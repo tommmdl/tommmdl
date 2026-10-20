@@ -8,7 +8,7 @@ I work with Cloud, DevOps and FinOps, and I'm expanding my studies into Machine 
 
 **[devops-portfolio →](https://github.com/tommmdl/devops-portfolio/blob/main/README.en.md)**
 
-I brought together 18 labs covering Linux, containers, CI/CD, automation, Kubernetes, GitOps, observability and recovery. A notes application with an API and PostgreSQL connects many of the exercises.
+I brought together 19 labs covering Linux, containers, CI/CD, automation, Kubernetes, GitOps, observability and recovery. A notes application with an API and PostgreSQL connects many of the exercises.
 
 Each lab includes code, instructions in Portuguese and English, and test records. Failed builds, restore warnings and unanswered questions are part of the documentation too.
 

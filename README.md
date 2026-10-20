@@ -8,7 +8,7 @@ Trabalho com Cloud, DevOps e FinOps e venho ampliando meus estudos em Machine Le
 
 **[devops-portfolio →](https://github.com/tommmdl/devops-portfolio)**
 
-Reuni 18 labs em uma trilha que passa por Linux, containers, CI/CD, automação, Kubernetes, GitOps, observabilidade e recuperação. Uma aplicação de notas com API e PostgreSQL conecta boa parte dos exercícios.
+Reuni 19 labs em uma trilha que passa por Linux, containers, CI/CD, automação, Kubernetes, GitOps, observabilidade e recuperação. Uma aplicação de notas com API e PostgreSQL conecta boa parte dos exercícios.
 
 Cada lab tem código, instruções em português e inglês e registros dos testes. Os builds que falharam, os avisos de restauração e as perguntas que ficaram abertas também fazem parte da documentação.
 

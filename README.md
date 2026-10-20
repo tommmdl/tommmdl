@@ -1,76 +1,55 @@
-<div align="center">
-
 # Rafael Santiago Silva
 
-### Cloud & MLOps Engineer | From FinOps to Agentic AI on AWS
+Português · **[English](README.en.md)** · [LinkedIn](https://www.linkedin.com/in/rafael-santiago-silva-68420759/)
 
-*Building the infrastructure that makes intelligent systems run.*
+Trabalho com Cloud, DevOps e FinOps e venho ampliando meus estudos em Machine Learning e MLOps. Gosto de entender como as peças se conectam: da infraestrutura que sustenta uma aplicação até a investigação de uma falha.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafael-santiago-silva-68420759/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/tommmdl)
+## Comece pelo meu portfólio DevOps
 
-</div>
+**[devops-portfolio →](https://github.com/tommmdl/devops-portfolio)**
 
----
+Reuni 18 labs em uma trilha que passa por Linux, containers, CI/CD, automação, Kubernetes, GitOps, observabilidade e recuperação. Uma aplicação de notas com API e PostgreSQL conecta boa parte dos exercícios.
 
-## About
+Cada lab tem código, instruções em português e inglês e registros dos testes. Os builds que falharam, os avisos de restauração e as perguntas que ficaram abertas também fazem parte da documentação.
 
-- 🏗️ Cloud & DevOps roots — I understand infrastructure from the ground up
-- 📊 FinOps specialist — cost optimization, cross-account visibility, anomaly detection on AWS
-- 🤖 Expanding into MLOps & Agentic AI — building pipelines, RAG systems, and serverless ML on AWS
-- 🎓 Postgraduate in Machine Learning & MLOps at Data Science Academy
-- 🏆 AWS Certified: DevOps Professional · SysOps · Solutions Architect · AI Practitioner · ML Engineer Associate · FinOps
+[Arquitetura geral](https://github.com/tommmdl/devops-portfolio/blob/main/docs/architecture.md) · [Ordem de estudo](https://github.com/tommmdl/devops-portfolio/blob/main/docs/study-guide.md) · [Resultados e evidências](https://github.com/tommmdl/devops-portfolio/blob/main/docs/results.md)
 
----
+## Labs que vale abrir primeiro
 
-## Tech Stack
+| Lab | O que você encontra |
+| --- | --- |
+| [GitHub Actions](https://github.com/tommmdl/github-actions-lab) | Testes da aplicação e publicação no GHCR, com conferência de que a imagem publicada é a mesma que passou nos testes. [Validação](https://github.com/tommmdl/github-actions-lab/blob/main/docs/validation.md). |
+| [Argo CD](https://github.com/tommmdl/argocd-lab) | Um teste local de drift com self-heal desligado e ligado, observando as réplicas voltarem ao estado definido no Git. [Registro do teste](https://github.com/tommmdl/argocd-lab/blob/main/evidence/notes-self-heal.json). |
+| [Tracing](https://github.com/tommmdl/tracing-lab) | Requisições acompanhadas por OpenTelemetry e Tempo, com spans HTTP/SQL e ligação aos logs pelo trace ID. [Validação](https://github.com/tommmdl/tracing-lab/blob/main/docs/validation.md). |
+| [Segurança de imagens](https://github.com/tommmdl/security-lab) | Análise com Trivy e adoção da API Alpine, com rollback testado e achados preservados nos relatórios. [Como foi a mudança](https://github.com/tommmdl/security-lab/blob/main/docs/api-adoption.md). |
+| [Disaster recovery](https://github.com/tommmdl/disaster-recovery-lab) | Restauração da aplicação e do PostgreSQL em outro cluster com Velero, conferindo os dados e mantendo os dois avisos do restore documentados. [Validação](https://github.com/tommmdl/disaster-recovery-lab/blob/main/docs/validation.md). |
+| [Failover e failback](https://github.com/tommmdl/failover-lab) | Troca controlada entre clusters, replicação síncrona, bloqueio do escritor anterior e conferência dos dados na ida e na volta. [Validação](https://github.com/tommmdl/failover-lab/blob/main/docs/validation.md). |
+| [Chaos engineering](https://github.com/tommmdl/chaos-lab) | Falhas de Pods e rede investigadas com capturas de pacotes. A execução documentada tem 146 verificações e cinco timeouts TCP reproduzidos; um backend segue sem identificação. [Investigação](https://github.com/tommmdl/chaos-lab/blob/main/docs/resilience-timeouts.md). |
 
-**Cloud & Infrastructure**
+Os ambientes usam Docker/WSL e Kubernetes local com kind. Os clusters compartilham o mesmo host; os resultados mostram o alcance dos exercícios. O portfólio detalha as limitações e a ajuda do assistente na implementação e nas primeiras validações.
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+## Outros projetos que sigo desenvolvendo
 
-**ML & AI**
+- [FinOps Portal](https://github.com/tommmdl/finops-portal): portal para explorar custos de contas AWS.
+- [RAG na AWS](https://github.com/tommmdl/rag-mlops-aws): Bedrock, OpenSearch, Lambda e Terraform em um projeto de recuperação e geração de respostas.
+- [Machine Learning e MLOps](https://github.com/tommmdl/MLOps-Machine-Learning): detecção de anomalias com Isolation Forest e uma API em FastAPI.
+- [Busca semântica](https://github.com/tommmdl/semantic-search-aws): TF-IDF, similaridade de cosseno e armazenamento no S3.
+- [Sales API](https://github.com/tommmdl/sales-api): backend de vendas com FastAPI, testes e integração com banco.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![AWS Bedrock](https://img.shields.io/badge/AWS_Bedrock-FF9900?style=flat&logo=amazonaws&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
+## Ferramentas que aparecem nos projetos
 
-**FinOps & Observability**
+**Infraestrutura e entrega:** AWS, Linux, Docker, Kubernetes, Terraform, Ansible, Jenkins, GitHub Actions e Argo CD.
 
-![AWS Cost Explorer](https://img.shields.io/badge/Cost_Explorer-FF9900?style=flat&logo=amazonaws&logoColor=white)
-![CloudWatch](https://img.shields.io/badge/CloudWatch-FF4F8B?style=flat&logo=amazonaws&logoColor=white)
-![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat&logo=amazondynamodb&logoColor=white)
+**Operação e investigação:** Prometheus, Grafana, Loki, OpenTelemetry, Tempo, Alertmanager, Trivy, Velero e Chaos Mesh.
 
----
+**Dados, FinOps e IA:** Python, PostgreSQL, FastAPI, scikit-learn, Bedrock, Cost Explorer, CloudWatch e DynamoDB.
 
-## Featured Projects
+## Formação e certificações
 
-| Project | Description | Stack |
-|---|---|---|
-| [rag-mlops-aws](https://github.com/tommmdl/rag-mlops-aws) | End-to-end RAG system on AWS: Bedrock Titan V2 + Claude 3 Haiku, OpenSearch kNN, Lambda, DynamoDB, Terraform | Python · AWS Bedrock · OpenSearch · Lambda · Terraform |
-| [MLOps-Machine-Learning](https://github.com/tommmdl/MLOps-Machine-Learning) | MLOps pipeline with anomaly detection using Isolation Forest on the NAB dataset, served via FastAPI REST API | Python · FastAPI · scikit-learn · Terraform |
-| [semantic-search-aws](https://github.com/tommmdl/semantic-search-aws) | Semantic search engine with TF-IDF and cosine similarity, persisted on S3 | Python · AWS S3 |
-| [sales-api](https://github.com/tommmdl/sales-api) | RESTful API with clean architecture and automated CI/CD pipeline | Python · FastAPI · GitHub Actions |
+Pós-graduação em Machine Learning e MLOps na Data Science Academy.
 
----
-
-## Currently
-
-- 🔭 Building a **FinOps Portal** — multi-account AWS cost visibility dashboard (Amplify + API Gateway + Lambda + DynamoDB)
-- 📚 Studying **Agentic AI** patterns — autonomous workflows, tool use, multi-agent orchestration
-- ⚙️ Exploring **browser automation** with `browser-use` and Claude as the reasoning engine
-- 🎯 Next certification: **AWS Certified Generative AI Developer Professional**
-
----
-
-## Certifications
-
-| Certification | Issuer |
-|---|---|
+| Certificação | Instituição |
+| --- | --- |
 | AWS DevOps Engineer Professional | Amazon Web Services |
 | AWS SysOps Administrator Associate | Amazon Web Services |
 | AWS Solutions Architect Associate | Amazon Web Services |
@@ -79,10 +58,4 @@
 | FinOps Certified Practitioner | FinOps Foundation |
 | NVIDIA AI Infrastructure | NVIDIA |
 
----
-
-<div align="center">
-
-*Infrastructure is the foundation. Intelligence is the direction.*
-
-</div>
+Também estudo IA agêntica, automação de navegador e aplicações de ML na AWS. Para conversar sobre os projetos, me encontre no [LinkedIn](https://www.linkedin.com/in/rafael-santiago-silva-68420759/).

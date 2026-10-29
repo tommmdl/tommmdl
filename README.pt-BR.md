@@ -32,6 +32,10 @@ Os ambientes usam Docker/WSL e clusters kind locais no mesmo host, então os res
 - [Serving de modelo](https://github.com/tommmdl/mlops-serving-platform): Isolation Forest atrás de FastAPI, com Docker, manifests Kubernetes e CI.
 - [Métricas por MCP](https://github.com/tommmdl/mcp-metrics-lab): servidor MCP que permite a um agente rodar consultas PromQL de uma allowlist no Mimir e ler os alertas do Prometheus.
 
+## Open source
+
+- [COIR](https://github.com/MarceloPCF/COIR), extrator de notas de corretagem da B3: compatibilidade com pandas 2 e 3 ([PR #34](https://github.com/MarceloPCF/COIR/pull/34)), incorporada na [v2.2.0](https://github.com/MarceloPCF/COIR/releases/tag/v2.2.0).
+
 ## Ferramentas que aparecem nos projetos
 
 **Plataforma e entrega:** AWS, Kubernetes, Terraform, Argo CD, GitHub Actions, Docker, Ansible e Linux.

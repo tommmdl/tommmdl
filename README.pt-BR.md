@@ -6,7 +6,7 @@ Trabalho com operação de nuvem em um AWS Partner MSP: cerca de 20 contas AWS d
 
 ## Comece pelos labs de confiabilidade
 
-**[devops-portfolio →](https://github.com/tommmdl/devops-portfolio)**
+**[devops-portfolio →](https://github.com/tommmdl/devops-portfolio/blob/main/README.pt-BR.md)**
 
 21 labs em torno de uma aplicação de notas com API e PostgreSQL: containers, CI/CD, Kubernetes, GitOps, observabilidade, backup, disaster recovery, failover e chaos engineering. Cada lab tem código, passos de instalação e limpeza e relatórios de teste em JSON. As execuções que falharam e as perguntas em aberto continuam registradas.
 
@@ -18,7 +18,7 @@ Trabalho com operação de nuvem em um AWS Partner MSP: cerca de 20 contas AWS d
 | --- | --- |
 | [Chaos engineering](https://github.com/tommmdl/chaos-lab) | Falhas de Pods e rede investigadas com capturas de pacotes. A execução documentada no CI tem 146 verificações e cinco timeouts TCP reproduzidos; um backend segue sem identificação. [Investigação](https://github.com/tommmdl/chaos-lab/blob/main/docs/resilience-timeouts.md). |
 | [Failover e failback](https://github.com/tommmdl/failover-lab) | Troca controlada entre clusters com replicação síncrona do PostgreSQL, bloqueio do escritor anterior e conferência dos dados na ida e na volta. [Validação](https://github.com/tommmdl/failover-lab/blob/main/docs/validation.md). |
-| [Plataforma de entrega GitOps](https://github.com/tommmdl/gitops-delivery-platform) | Do pull request ao Argo CD: imagem fixada por digest, assinatura Cosign, SBOM, integração em kind no CI e referência Terraform de EKS validada sem apply. [Evidências](https://github.com/tommmdl/gitops-delivery-platform/blob/main/docs/validation.md). |
+| [Plataforma de entrega GitOps](https://github.com/tommmdl/gitops-delivery-platform/blob/main/README.pt-BR.md) | Do pull request ao Argo CD: imagem fixada por digest, assinatura Cosign, SBOM, integração em kind no CI e referência Terraform de EKS validada sem apply. [Evidências](https://github.com/tommmdl/gitops-delivery-platform/blob/main/docs/validation.md). |
 | [Disaster recovery](https://github.com/tommmdl/disaster-recovery-lab) | O Velero restaura a aplicação e o PostgreSQL em outro cluster com a origem parada; os dados são conferidos e os dois avisos do restore ficam documentados. [Validação](https://github.com/tommmdl/disaster-recovery-lab/blob/main/docs/validation.md). |
 | [Segurança de imagens](https://github.com/tommmdl/security-lab) | Gates do Trivy que precisam aprovar as imagens adotadas e continuar bloqueando as imagens vulneráveis retidas para recuperação. [Como foi a mudança da API](https://github.com/tommmdl/security-lab/blob/main/docs/api-adoption.md). |
 | [Tracing](https://github.com/tommmdl/tracing-lab) | Requisições acompanhadas por OpenTelemetry e Tempo, com spans HTTP/SQL e busca de logs pelo trace ID. [Validação](https://github.com/tommmdl/tracing-lab/blob/main/docs/validation.md). |

@@ -6,7 +6,7 @@ Cloud operations engineer at an AWS Partner MSP: about 20 customer AWS accounts,
 
 ## Start with the reliability labs
 
-**[devops-portfolio →](https://github.com/tommmdl/devops-portfolio/blob/main/README.en.md)**
+**[devops-portfolio →](https://github.com/tommmdl/devops-portfolio)**
 
 21 labs built around one notes application with an API and PostgreSQL: containers, CI/CD, Kubernetes, GitOps, observability, backup, disaster recovery, failover and chaos engineering. Each lab has code, setup and cleanup steps, and JSON test reports. Failed runs and open questions stay in the record.
 

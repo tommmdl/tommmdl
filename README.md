@@ -46,7 +46,7 @@ The environments run on Docker/WSL and local kind clusters that share one host, 
 
 ## Education and certifications
 
-Postgraduate program in Machine Learning and MLOps at Data Science Academy (finishing December 2026).
+Postgraduate studies at Data Science Academy: Machine Learning and MLOps (finishing December 2026), and Mathematics and Applied Statistics for Data Science, ML and AI.
 
 | Certification | Issuer |
 | --- | --- |

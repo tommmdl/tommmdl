@@ -46,7 +46,7 @@ Os ambientes usam Docker/WSL e clusters kind locais no mesmo host, então os res
 
 ## Formação e certificações
 
-Pós-graduação em Machine Learning e MLOps na Data Science Academy (término em dezembro de 2026).
+Pós-graduações na Data Science Academy: Machine Learning e MLOps (término em dezembro de 2026) e Matemática e Estatística Aplicada para Data Science, ML e IA.
 
 | Certificação | Instituição |
 | --- | --- |
